@@ -1,0 +1,135 @@
+.tasksContainer {
+  width: 100%;
+  height: 100vh;
+  background-color: #4d724d;
+  position: relative;
+}
+
+.taskHead {
+  height: 50px;
+  display: flex;
+  box-shadow: white 0px 1px 1px;
+  gap: 3px;
+  align-items: center;
+  color: white;
+  position: relative;
+}
+
+.taskHead span {
+  color: #8db48e;
+  margin-left: 10px;
+}
+
+.taskNavigateButton {
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+}
+
+.taskNavigateButton > button {
+  background-color: #8db48e;
+  color: #4d724d;
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.taskNavigateButton > button:hover {
+  background-color: white;
+}
+
+.boardTaskSection {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.tasksButton {
+  position: absolute;
+  bottom: 12px;
+  right: 20px;
+}
+
+.tasksButton > button {
+  color: #8db48e;
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.tasksButton > button:hover {
+  color: white;
+}
+
+.boardPopUpForm {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 200px;
+  left: 580px;
+  border: 2px solid #4d724d;
+  border-radius: 8px;
+  z-index: 999;
+  background-color: #8db48e;
+}
+
+.boardPopUpForm:hover {
+  border: 2px solid white;
+}
+
+.boardForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.boardPopUpFormHide {
+  display: none;
+}
+
+.boardInputField {
+  display: flex;
+  gap: 10px;
+}
+
+.boardInputField > label {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.boardInputField > input {
+  outline: none;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 1px;
+  border-radius: 4px;
+  color: white;
+}
+
+.boardInputField > input:focus {
+  border: 2px solid white;
+}
+
+.boardFormButton {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+.boardFormButton > button {
+  font-family: "Roboto", sans-serif;
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.boardFormButton > button:hover {
+  color: #4d724d;
+}

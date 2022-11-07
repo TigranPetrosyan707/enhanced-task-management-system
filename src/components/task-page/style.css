@@ -1,0 +1,156 @@
+.singleTask {
+  width: 300px;
+  height: 500px;
+  border: 2px solid #8db48e;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.singleTask:hover {
+  border: 2px solid white;
+}
+
+.singleTaskHead {
+  width: 100%;
+  height: 25px;
+  background-color: #8db48e;
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.singleButton {
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  background-color: rgb(237, 94, 104);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 5px 8px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.singleButtonAdd:hover,
+.singleButton:hover {
+  outline: 1px solid white;
+}
+
+.singleButtonAdd {
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  background-color: rgb(100, 153, 46);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 5px 8px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.addTaskPortal {
+  width: 300px;
+  height: 200px;
+  position: fixed;
+  top: 200px;
+  left: 580px;
+  border: 2px solid #4d724d;
+  border-radius: 8px;
+  z-index: 999;
+  background-color: rgb(100, 153, 46);
+}
+
+.addTaskPortal:hover {
+  border: 2px solid white;
+}
+
+.addPortalForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.addPortalInputField {
+  display: flex;
+  gap: 10px;
+}
+
+.addPortalInputField > label {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.addPortalInputField > input {
+  outline: none;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 1px;
+  border-radius: 4px;
+  color: white;
+}
+
+.addPortalInputField > input:focus {
+  border: 2px solid white;
+}
+
+.addPortalButton {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+.addPortalButton > button {
+  font-family: "Roboto", sans-serif;
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.addPortalButton > button:hover {
+  font-weight: bold;
+}
+
+.addTaskPortalHide {
+  display: none;
+}
+
+.newTaskSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+.singleNewTask {
+  width: 80%;
+  height: 50px;
+  border: 2px solid rgb(100, 153, 46);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.singleNewTask:hover {
+  background-color: #8db48e;
+}
+
+.singleTaskDelete {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background-color: transparent;
+  border: none;
+  color: tomato;
+  cursor: pointer;
+}
